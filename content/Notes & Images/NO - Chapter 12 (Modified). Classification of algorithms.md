@@ -1,0 +1,6 @@
+![[NO - Solution Algorithms (Exact, Approximate, Heuristic)]]
+![[NO - Exact Algorithms]]
+![[NO - Approximate Algorithms]]
+![[NO - Heuristic Algorithms]]
+![[NO - Greedy (Heuristic) Algorithms]]
+![[NO - Metaheuristic (Heuristic)  Algorithms]]

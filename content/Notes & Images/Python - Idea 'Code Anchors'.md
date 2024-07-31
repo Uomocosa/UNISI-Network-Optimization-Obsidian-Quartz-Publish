@@ -1,0 +1,12 @@
+Ingredients:
+- Set variables to read only mode:
+	- Unluckily cannot be done, the only work around is with deep-copying or removing the setattr of each variable.
+	- Or maybe create a decorator like `@assert_function_is_pure`
+- **OPTIONAL**: no need to pass `locals()` every time with [inspect](https://stackoverflow.com/questions/13380064/a-way-to-automatically-pass-parameters-to-a-function#:~:text=Simplely%20you%20can%20just%20use%20globals()/locals()%20to%20automatically%20get%20the%20context%20variables)
+- Understand how to create a "with" command:
+	- [Geeks for Geeks](https://www.geeksforgeeks.org/with-statement-in-python/)
+	- [Other Source](https://preshing.com/20110920/the-python-with-statement-by-example/)
+- How to create a new python-keyword like "assert":
+	- [GithHub](https://stackoverflow.com/questions/214881/can-you-add-new-statements-to-pythons-syntax)
+	- [# PEP 339 -- Design of the CPython Compiler](https://www.python.org/dev/peps/pep-0339/)
+- Add functionality to the IDE (Sublime Text) to support the use of code anchor, specifically when creating a new block of code i want to see the original code I'm working with, the code should be more gray-like and it shouldn't be possible to change it.

@@ -1,0 +1,3 @@
+# IMPORTERS: Finder + Loaders
+[Youtube from 'Sreekanth'](https://www.youtube.com/watch?v=QCSz0j8tGmI): **REALLY** good youtube video, explains the sequence for importing a module, looking also at the memory location, and where the module is saved.
+[Youtube from 'SF Python'](https://www.youtube.com/watch?v=NRynSD6MCLE): it explains the concepts, and show some code behind [importlib.machinery](https://docs.python.org/3/library/importlib.html#:~:text=importlib/machinery.py-,This%20module%20contains%20the%20various%20objects%20that%20help,-import%20find%20and), to create your own **Finders** and **Loaders**, (together they form an **IMPORTER**)
